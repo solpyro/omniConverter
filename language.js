@@ -44,6 +44,7 @@ var ls = {
 	//ingredients
 	apple: {		en: "Apple, Diced",		ee: "Õun",					},
 	butter: {		en: "Butter",			ee: "Või",					},
+	cocoa: {		en: "Cocoa Powder",		ee: "Kakaopulber",			},
 	cdmn_grnd: {	en: "Cardomon, Ground",	ee: "Kardemonipulber",		},
 	cnmn_grnd: {	en: "Cinnamon, Ground",	ee: "Kaneelipulber",		},
 	cloves_grnd: {	en: "Cloves, Ground",	ee: "Nelkpulber",			},

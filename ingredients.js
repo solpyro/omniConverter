@@ -2,6 +2,7 @@
 var ingredients = {
 	apple:			3/5,
 	butter:			227/250,
+	cocoa:			50/(8*15),
 	//cdmn_grnd: 0,
 	//cnmn_grnd: 0,
 	//cloves_grnd: 0,
