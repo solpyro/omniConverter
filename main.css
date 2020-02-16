@@ -1,0 +1,111 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	color:#ffffff;
+	font-family:'Open Sans', sans-serif;
+}
+
+html {
+	background: #3498DB;
+}
+
+h1 {
+	text-align: center;
+	font-size:40px;
+	border-bottom: 1px solid #ffffff;
+	margin-bottom:5px;
+	/*padding-left:50px; /*recenters for the language menu*/
+}
+h2 {
+	/*padding-left:10%;*/
+	padding-left:15px;
+	font-size:25px;
+	clear:both;
+}
+
+span.tab {
+	display: block;
+	float:left;
+	margin-top: 5px;
+	margin-left:15px;
+	padding: 0px 3px;
+	border-radius: 5px;
+	border: 2px solid #2874A6;
+	cursor:pointer;
+}
+span.tab.active {
+	background-color: #2874A6;
+}
+
+div.card {
+	clear:both;
+}
+
+div.input {
+	margin: 5px 10px;
+	padding: 5px;
+	background-color: #2874A6;
+	border-radius: 5px;
+}
+
+select, input {
+	background: none;
+	border: none;
+	font-size: 20px;
+}
+select option {
+	color: #999999;
+}
+
+button {
+	margin: 5px 0px 5px 10px;
+	padding: 5px 10px;
+	background-color: #2874A6;
+	border-radius: 5px;
+	border:none;
+	font-size: 18px;
+}
+
+#languages {
+	position:absolute;
+	top:9px;
+	right:14px;
+	display:block;
+	height: 36px;
+	width: auto;
+	background-color:#2874A6;
+	border-radius:36px;
+}
+.language {
+	display:block;
+	float:right;
+	width: 30px;
+	height: 30px;
+	margin:3px;
+	background:url('languages.png');
+	background-size:auto 100%;
+	border-radius:100%;
+}
+.language#en {
+	background-position:0px 0px;
+}
+.language#ee {
+	background-position:100% 0px;
+}
+
+#inputValue, #outputValue {
+	width: 70%;
+}
+.ratioValue {
+	width:20%;
+	text-align:right;
+}
+#inputUnit, #outputUnit, .ratioUnit {
+	width: 28%;
+}
+#ingredient, #inputC, #inputF {
+	width: 100%;
+}
+.ratioIngredient {
+	width: 50%;
+}

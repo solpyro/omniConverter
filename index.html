@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Omni Converter</title>
+		
+		<meta charset="UTF-8">
+		<meta name="application-name" content="Omni Converter">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48" href="favicon.png">
+		<link rel="icon" sizes="192x192" href="favicon-hires.png">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<script type="text/javascript" src="language.js"></script>
+		<script type="text/javascript" src="ingredients.js"></script>
+		<script type="text/javascript" src="units.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	
+	<body>
+		<h1>
+			<span id="title" ls="title">Omni Converter</span>
+			<span id="languages">
+				<span id="en" class="language"></span>
+				<span id="ee" class="language"></span>
+			</span>
+		</h1>
+		
+		<span class="tab" id="tabWV" ls="weight_vol">Weight/Volume</span>
+		<span class="tab" id="tabRatio" ls="ratio">Find Ratio</span>
+		<span class="tab" id="tabTemp" ls="temp">Temp</span>
+		
+		<div class="card" id="cardWV">
+			<h2 id="wvIn" ls="input" >Input</h2>
+			<div class="input">
+				<input type="number" id="inputValue" value="1" />
+				<select id="inputUnit"></select>
+			</div>
+			
+			<h2 id="wvIng" ls="ingredient">Ingredient</h2>
+			<div class="input">
+				<select id="ingredient"></select>
+			</div>
+			
+			<h2 id="wvOut" ls="output">Output</h2>
+			<div class="input">
+				<input type="number" id="outputValue" disabled="disabled" />
+				<select id="outputUnit"></select>
+			</div>
+		</div>
+		
+		<div class="card" id="cardRatio">
+			<h2 id="rIng" ls="ingredients">Ingredients</h2>
+			<div id="ratioList" class="input">
+				<select id="ri0" class="ratioIngredient"></select><input id="rv0" type="number" class="ratioValue" /><select id="ru0" class="ratioUnit"></select>
+			</div>
+			<button id="newIng" ls="ingredient_add">+ Ingredient</button>
+			<button id="lock" ls="ratio_lock">Lock Ratio</button>
+			<button id="unlock" ls="ratio_unlock">Unlock Ratio</button>
+		</div>
+		
+		<div class="card" id="cardTemp">
+			<h2 id="tCel" ls="celcius">Celcius</h2>
+			<div class="input">
+				<input type="number" id="inputC" value="0" />
+			</div>
+			<h2 id="tFar" ls="farenheit">Farenheit</h2>
+			<div class="input">
+				<input type="number" id="inputF" value="0" />
+			</div>
+			<h2 id="tGas" ls="gas_mark">Gas Mark</h2>
+			<div class="input">
+				<input type="number" id="inputG" value="0" />
+			</div>
+		</div>
+		
+	</body>
+</html>
