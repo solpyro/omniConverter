@@ -17,8 +17,10 @@ var ingredients = {
 	mustard:		1.2,
 	mustard_pwdr:	.5,
 	mustard_seed:	17/25,
+	oats:			35/50,
 	peanut_butter:	270.51/250,
 	porridge:		103/100,
+	raisins:		67/50,
 	rice_brn:		185/250,
 	rice_wht:		195/250,
 	salt:			0.801,
@@ -30,4 +32,5 @@ var ingredients = {
 	//vinegar: 0,
 	water:			1,
 	yeast_dried:	3.1/5,
+
 };

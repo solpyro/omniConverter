@@ -7,6 +7,8 @@ var units = {
 	dl: {		isMass: false,	conversion: 100			},
 	dsp: {		isMass: false,	conversion: 10			},
 	g: {		isMass: true,	conversion: 1			},
+	gal: {		isMass: false,	conversion: 4546.09		},
+	gal_us: {	isMass: false,	conversion: 3785.41		},
 	floz: {		isMass: false,	conversion:	28.41		},
 	floz_us: {	isMass: false,	conversion:	29.5735		},
 	kg: {		isMass: true,	conversion: 1000		},
