@@ -21,6 +21,7 @@ var ingredients = {
 	peanut_butter:	270.51/250,
 	porridge:		103/100,
 	raisins:		67/50,
+	redcurrants:	473/1000,
 	rice_brn:		185/250,
 	rice_wht:		195/250,
 	salt:			0.801,
